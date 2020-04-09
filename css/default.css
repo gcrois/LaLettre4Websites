@@ -1,31 +1,26 @@
-:root {
-  --text-main: black;
-  --text-high: #DCA59D;
-  --text-subt: darkslategray;
-  --back-main: lightgrey;
-  --back-high: #549869;
-}
-
 body {
-  background-color: var(--back-main);
+  background-color: lightgrey;
+  padding: 10vh 10vw 10vh 10vw;
 }
-
-h1, h2 {
-  color: var(--text-main);
+h1 {
+  color: black;
 }
-
+h2 {
+  color: black;
+  padding-top: 8vh;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  font-size: calc(36px + .5vw);
-  color: var(--text-subt);
+  font-size: calc(20px + 1vw);
+  color: darkslategrey;
 }
-
 img {
   width: 80%;
   max-width: 512px;
   display: block;
-  margin-top: 16px;
   margin-left: auto;
   margin-right: auto;
+  border: 5px solid white;
+  border-radius: 5px;
 }
